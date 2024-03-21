@@ -1,7 +1,7 @@
 export const TOOLS_IMAGES = {
-    FLIMSY_AXE: require('./images/Tools/Flimsy_Axe_NH_DIY_Icon.png'),
-    AXE: require('./images/Tools/Axe_NH_DIY_Icon.png'),
-    BAMBOO_WAND: require('./images/Tools/Bamboo_Wand_NH_DIY_Icon.png'),
+    flimsyAxe: require('./images/Tools/Flimsy_Axe_NH_DIY_Icon.png'),
+    axe: require('./images/Tools/Axe_NH_DIY_Icon.png'),
+    bambooWand: require('./images/Tools/Bamboo_Wand_NH_DIY_Icon.png'),
     bunnyDayWand: require('./images/Tools/Bunny_Day_Wand_NH_DIY_Icon.png'),
     cherryBlossomWand: require('./images/Tools/Cherry-Blossom_Wand_NH_DIY_Icon.png'),
     cosmosWand: require('./images/Tools/Cosmos_Wand_NH_DIY_Icon.png'),
@@ -32,7 +32,7 @@ export const TOOLS_IMAGES = {
     roseWand: require('./images/Tools/Rose_Wand_NH_DIY_Icon.png'),
     shamrockWand: require('./images/Tools/Shamrock_Wand_NH_DIY_Icon.png'),
     shellWand: require('./images/Tools/Shell_Wand_NH_DIY_Icon.png'),
-    SHOVEL: require('./images/Tools/Shovel_NH_DIY_Icon.png'),
+    shovel: require('./images/Tools/Shovel_NH_DIY_Icon.png'),
     slingshot: require('./images/Tools/Slingshot_NH_DIY_Icon.png'),
     spookyWand: require('./images/Tools/Spooky_Wand_NH_DIY_Icon.png'),
     starWand: require('./images/Tools/Star_Wand_NH_DIY_Icon.png'),
@@ -47,3 +47,4 @@ export const TOOLS_IMAGES = {
     windflowerWand: require('./images/Tools/Windflower_Wand_NH_DIY_Icon.png'),
     woodenLadder: require('./images/Tools/Wooden_Ladder_Set-Up_Kit_NH_DIY_Icon.png')
 }
+export default TOOLS_IMAGES;
