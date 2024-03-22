@@ -61,14 +61,15 @@ function App() {
           </div>
         )}
 
-        {/* Render filtered quotes */}
-        <div className="class-container"> {/* Added container for quotes */}
+        {/* Render filtered items */}
+        <div className="class-container"> 
           {filteredItems.map((c) => (
-            <div key={c.id} className="class"> {/* Added class name for quote */}
-              <p className="class-course">{c.item}</p> {/* Added class name for quote text */}
-              <img src={c.image} alt=""/> 
-              <p className='class-description'>{c.materials}</p>
-
+            <div key={c.id} className="row">
+              <div style={{ display: 'flex', alignItems: 'center' }}>
+                <p className="class-course">{c.item}</p>
+                <img src={c.image} alt="" style={{ marginLeft: '10px' }} />
+                <p className='class-description'>{c.materials}</p>
+              </div>
             </div>
           ))}
         </div>

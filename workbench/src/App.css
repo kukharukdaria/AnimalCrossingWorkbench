@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #F8F4C7;
 }
 
 .App-logo {
@@ -35,4 +36,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.row {
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+  border: 2px solid #000; /* Add a border */
+  padding: 10px; /* Optional: Add some padding for spacing */
+  width: 100%; /* Set the width to take up the entire screen */
+  box-sizing: border-box; /* Include padding and border in the width calculation */
 }
