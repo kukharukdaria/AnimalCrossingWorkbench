@@ -6,11 +6,11 @@ import items from './items.js';
 import React, { useState } from 'react';
 import { CATEGORIES } from './categoriesConfig.js';
 import { SUBCATEGORIES } from './categoriesConfig.js';
-import {useTable} from 'react-table';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [selectedSubcategory, setSelectedSubcategory] = useState(null);
+  const [buttonClicked, setButtonClicked] = useState(false); // New state to track button click
 
   const handleSelectCategory = (category) => {
     setSelectedCategory(category);
@@ -29,38 +29,49 @@ function App() {
     return categoryMatch && subcategoryMatch;
   });
 
+  const handleButtonClick = () => {
+    setButtonClicked(true); // Toggle the state when any button is clicked
+  };
+
 
   return (
     <div className="App">
       <Header />
 
       {/* Render buttons for categories */}
-      <div className="horizontal-buttons"> {/* Added container for horizontal buttons */}
-          {Object.values(CATEGORIES).map((category) => (
+      <div className="horizontal-buttons">
+        {Object.values(CATEGORIES).map((category) => (
+          <button
+            key={category}
+            className={`button${selectedCategory === category ? '-selected' : ''}${buttonClicked ? ' clicked' : ''}`}
+            onClick={() => {
+              handleSelectCategory(category);
+              handleButtonClick(); // Call handleButtonClick when any button is clicked
+            }}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
+      {/* Render subcategory buttons if a category is selected */}
+      {selectedCategory && (
+        <div className="horizontal-buttons">
+          {Object.values(SUBCATEGORIES[selectedCategory]).map((subcategory) => (
             <button
-              key={category}
-              className={`button${selectedCategory === category ? '-selected' : ''}`}
-              onClick={() => handleSelectCategory(category)}
+              key={subcategory}
+              className={`button${selectedSubcategory === subcategory ? '-selected' : ''}${buttonClicked ? ' clicked' : ''}`}
+              onClick={() => {
+                handleSelectSubcategory(subcategory);
+                handleButtonClick(); // Call handleButtonClick when any button is clicked
+              }}
             >
-              {category}
+              {subcategory}
             </button>
           ))}
         </div>
+      )}
 
-        {/* Render subcategory buttons if a category is selected */}
-        {selectedCategory && (
-          <div className="horizontal-buttons"> {/* Added container for horizontal buttons */}
-            {Object.values(SUBCATEGORIES[selectedCategory]).map((subcategory) => (
-              <button
-                key={subcategory}
-                className={`button${selectedSubcategory === subcategory ? '-selected' : ''}`}
-                onClick={() => handleSelectSubcategory(subcategory)}
-              >
-                {subcategory}
-              </button>
-            ))}
-          </div>
-        )}
 
 
 
