@@ -6,6 +6,7 @@ import items from './items.js';
 import React, { useState } from 'react';
 import { CATEGORIES } from './categoriesConfig.js';
 import { SUBCATEGORIES } from './categoriesConfig.js';
+import {useTable} from 'react-table';
 
 function App() {
   const [selectedCategory, setSelectedCategory] = useState(null);
@@ -61,19 +62,39 @@ function App() {
           </div>
         )}
 
-        {/* Render filtered items */}
-        <div className="class-container"> 
-          {filteredItems.map((c) => (
-            <div key={c.id} className="row">
-              <div style={{ display: 'flex', alignItems: 'center' }}>
-                <p className="class-course">{c.item}</p>
-                <img src={c.image} alt="" style={{ marginLeft: '10px' }} />
-                <p className='class-description'>{c.materials}</p>
+
+
+
+        <div className="table-container">
+              {/*Header row*/}
+              <div className="row-header"style={{ display: 'flex', alignItems: 'left' }}>
+                {/* <div style={{ display: 'flex', alignItems: 'center' }}> */}
+                  <p className="table-label-item" style={{ textAlign: 'left' }}>Item</p>
+                  <p className="table-label-image">Image</p>
+                  <p className="table-label-materials">Materials</p>
+                {/* </div> */}
               </div>
-            </div>
-          ))}
+
+              {/* Render filtered items */}
+              <div className="class-container"> 
+                {filteredItems.map((c) => (
+                  <div key={c.id} className="row">
+                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                      <p className="cell">{c.item}</p>
+                      <img className="cell" src={c.image} alt="" style={{ marginLeft: '10px' }} />
+                      <div className="cell">
+                        <ul className="materials-list">
+                          {c.materials.map((material, index) => (
+                            <li key={index}>{material}</li>
+                          ))}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+          </div>
         </div>
-    </div>
   );
 }
 

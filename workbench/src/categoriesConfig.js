@@ -22,5 +22,15 @@ export const SUBCATEGORIES = {
     [CATEGORIES.FOOD]: {
         SWEET: 'Sweet',
         SAVORY: 'Savory'
+    },
+    [CATEGORIES.FURNITURE]: {
+
+    },
+    [CATEGORIES.DECOR]: {
+
+    },
+    [CATEGORIES.CLOTHING]: {
+
     }
+
 };
