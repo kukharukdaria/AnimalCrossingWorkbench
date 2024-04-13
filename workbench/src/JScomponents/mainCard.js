@@ -1,6 +1,10 @@
 import React from "react";
 import './mainCard.css';
 import TOOLS_IMAGES from '../images.js';
+import { useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
 
 export function MainSlingshotCard() {
     return (
@@ -16,18 +20,36 @@ export function MainSlingshotCard() {
 }
 
 
-export function MainAxeCard() {
+// export function MainAxeCard() {
+//     return (
+//         <div className="card">
+//             <div className="image-container">
+//                 <img src={TOOLS_IMAGES.flimsyAxe} alt="Axe" /> 
+//             </div>
+//             <div className="text-container">
+//                 <p>Axe</p>
+//             </div>
+//         </div>
+//     );
+// }
+
+
+export const MainAxeCard = () => {
+
     return (
         <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.flimsyAxe} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Axe</p>
-            </div>
-        </div>
+             <div className="image-container">
+                 <img src={TOOLS_IMAGES.flimsyAxe} alt="Axe" /> 
+             </div>
+             <div className="text-container">
+                 <p>Axe</p>
+             </div>
+         </div>
     );
-}
+};
+  
+
+
 
 export function MainShovelCard() {
     return (

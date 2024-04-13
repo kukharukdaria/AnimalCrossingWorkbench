@@ -155,10 +155,3 @@ img, .table-label-image{
   margin-left: 0px;
 }
 
-/* grid stuff */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-  /* Add any other styling you want */
-}
