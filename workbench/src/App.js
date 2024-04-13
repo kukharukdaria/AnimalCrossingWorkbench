@@ -20,17 +20,16 @@ import {
 function App() {
   return (
     <div className="App">
-      <div>SAY SOMETHING</div>
       <Router>
         <Routes>
           <Route path="/AnimalCrossingWorkbench/" element={<Home />} />
 
           <Route path="/AnimalCrossingWorkbench/axe" element={<AxePage />} />
           <Route path="/AnimalCrossingWorkbench/net" element={<AxePage />} />
-          <Route path="/AnimalCrossingWorkbench/FishingRod" element={<AxePage />} />
-          <Route path="/AnimalCrossingWorkbench/WateringCan" element={<AxePage />} />
-          <Route path="/AnimalCrossingWorkbench/Shovel" element={<AxePage />} />
-          <Route path="/AnimalCrossingWorkbench/Slingshot" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/fishingrod" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/wateringcan" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/shovel" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/slingshot" element={<AxePage />} />
         </Routes>
       </Router>
     </div>

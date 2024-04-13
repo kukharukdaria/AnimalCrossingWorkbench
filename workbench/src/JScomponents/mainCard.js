@@ -20,19 +20,6 @@ export function MainSlingshotCard() {
 }
 
 
-// export function MainAxeCard() {
-//     return (
-//         <div className="card">
-//             <div className="image-container">
-//                 <img src={TOOLS_IMAGES.flimsyAxe} alt="Axe" /> 
-//             </div>
-//             <div className="text-container">
-//                 <p>Axe</p>
-//             </div>
-//         </div>
-//     );
-// }
-
 
 export const MainAxeCard = () => {
 

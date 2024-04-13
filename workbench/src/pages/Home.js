@@ -11,7 +11,6 @@ function Home() {
 
   return (
     <div className="App-Home">
-      <div>THIS IS HOME</div>
       <Header />
 
       <div className="grid-container">

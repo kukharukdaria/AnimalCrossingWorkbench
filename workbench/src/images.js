@@ -45,6 +45,13 @@ export const TOOLS_IMAGES = {
     wateringCan: require('./images/Tools/Watering_Can_NH_DIY_Icon.png'),
     weddingWand: require('./images/Tools/Wedding_Wand_NH_DIY_Icon.png'),
     windflowerWand: require('./images/Tools/Windflower_Wand_NH_DIY_Icon.png'),
-    woodenLadder: require('./images/Tools/Wooden_Ladder_Set-Up_Kit_NH_DIY_Icon.png')
+    woodenLadder: require('./images/Tools/Wooden_Ladder_Set-Up_Kit_NH_DIY_Icon.png'),
+    left: require('./images/leftArrow.png'),
+    right: require('./images/rightArrow.png')
 }
+
 export default TOOLS_IMAGES;
+
+export const ARROWS = {
+    left: require('./images/leftArrow.png'),
+    right: require('./images/rightArrow.png')};
