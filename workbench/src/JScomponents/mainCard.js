@@ -2,7 +2,8 @@ import React from "react";
 import './mainCard.css';
 import TOOLS_IMAGES from '../images.js';
 import { useNavigate } from 'react-router-dom';
-import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter as Router } from 'react-router-dom';
+//import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 
 

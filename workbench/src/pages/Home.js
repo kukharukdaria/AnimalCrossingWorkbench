@@ -3,7 +3,13 @@ import './Pages.css';
 import AxePage from './AxePage.js';
 import Header from '../JScomponents/header';
 import {MainSlingshotCard, MainAxeCard, MainShovelCard, MainFishingRodCard, MainNetCard, MainWateringCanCard} from '../JScomponents/mainCard.js';
-
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route,
+//   Navigate,
+//   Switch,
+// } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 function Home() {
