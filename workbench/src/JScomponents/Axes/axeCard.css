@@ -20,7 +20,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    width: 65%;
+    width: 200px;
     background-color: rgb(252, 216, 255);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5);
