@@ -1,0 +1,10 @@
+/* grid stuff */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    /* Add any other styling you want */
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+  }
