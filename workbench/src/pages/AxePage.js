@@ -3,6 +3,8 @@ import { useNavigate } from "react-router-dom";
 import FlimsyAxeCard from '../JScomponents/FlimsyAxeCard.js';
 import ARROWS from '../images.js';
 import TOOLS_IMAGES from '../images.js';
+import StoneAxeCard from '../JScomponents/StoneAxeCard.js';
+import GoldenAxeCard from '../JScomponents/GoldenAxeCard.js';
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -25,6 +27,14 @@ function AxePage() {
       <div>
         <img src={ARROWS.left} />
         <img src={ARROWS.right}/> 
+      </div>
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <StoneAxeCard/>
+        <GoldenAxeCard/>
+      </div>
+      <div>
+        <img src={ARROWS.down} />
+        <img src={ARROWS.down}/> 
       </div>
 
 
