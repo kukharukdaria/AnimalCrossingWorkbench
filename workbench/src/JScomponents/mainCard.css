@@ -12,7 +12,7 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    width: 65%;
+    width: 250px;
     background-color: rgb(252, 216, 255);
     border-radius: 10px;
     box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5);
@@ -22,21 +22,26 @@
     box-shadow: 3px 3px 10px rgba(231, 182, 246, 0.5);
 }
 
+<<<<<<< Updated upstream
 /* .image-container {
     background-color: grey;
     height: 100px;
     width: 200px;
 } */
 
+=======
+>>>>>>> Stashed changes
 .image-container {      
-    width: 100%;
-    height: 80%;
+    width: 250px;
+    height: 150px;
     /* height: 80%; */
+    
   }
 
 .cardImage{
-    height: 100%;
+    height: 150px;
     width: auto;
+    
 }
 
 .text-container {
@@ -62,17 +67,7 @@
     box-sizing: border-box;
   }
 
-.card__overlay {
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-z-index: 1;      
-border-radius: calc(var(--curve) * 1px);    
-background-color: var(--surface-color);      
-transform: translateY(100%);
-transition: .2s ease-in-out;
-}
+
 
 .card:hover .card__overlay {
     transform: translateY(0);
@@ -92,6 +87,6 @@ transition: .2s ease-in-out;
 
 .mainCard{
     display: flex; /* Use Flexbox */
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
 }
