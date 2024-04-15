@@ -9,7 +9,6 @@ export const TOOLS_IMAGES = {
     flimsyNet: require('./images/Tools/Flimsy_Net_NH_DIY_Icon.png'),
     flimsyShovel: require('./images/Tools/Flimsy_Shovel_NH_DIY_Icon.png'),
     flimsyFishingRod: require('./images/Tools/Flimsy_Fishing_Rod_NH_DIY_Icon.png'),
-    flimsyShovel: require('./images/Tools/Flimsy_Shovel_NH_DIY_Icon.png'),
     flimsyWateringCan: require('./images/Tools/Flimsy_Watering_Can_NH_DIY_Icon.png'),
     goldenAxe: require('./images/Tools/Golden_Axe_NH_DIY_Icon.png'),
     goldenLadder: require('./images/Tools/Golden_Ladder_Set-Up_Kit_NH_DIY_Icon.png'),
@@ -46,12 +45,12 @@ export const TOOLS_IMAGES = {
     weddingWand: require('./images/Tools/Wedding_Wand_NH_DIY_Icon.png'),
     windflowerWand: require('./images/Tools/Windflower_Wand_NH_DIY_Icon.png'),
     woodenLadder: require('./images/Tools/Wooden_Ladder_Set-Up_Kit_NH_DIY_Icon.png'),
-    left: require('./images/leftArrow.png'),
-    right: require('./images/rightArrow.png')
+    left: require('./images/wood_arrow_diagonal_left.png'),
+    right: require('./images/wood_arrow_diagonal_right.png')
 }
 
 export default TOOLS_IMAGES;
 
 export const ARROWS = {
-    left: require('./images/leftArrow.png'),
-    right: require('./images/rightArrow.png')};
+    left: require('./images/wood_arrow_diagonal_left.png'),
+    right: require('./images/wood_arrow_diagonal_right.png')};
