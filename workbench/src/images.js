@@ -45,14 +45,14 @@ export const TOOLS_IMAGES = {
     weddingWand: require('./images/Tools/Wedding_Wand_NH_DIY_Icon.png'),
     windflowerWand: require('./images/Tools/Windflower_Wand_NH_DIY_Icon.png'),
     woodenLadder: require('./images/Tools/Wooden_Ladder_Set-Up_Kit_NH_DIY_Icon.png'),
-    left: require('./images/wood_arrow_diagonal_left.png'),
-    right: require('./images/wood_arrow_diagonal_right.png'),
-    down: require('./images/wood_arrow.png')
+    left: require('./images/Arrows/wood_arrow_diagonal_left.png'),
+    right: require('./images/Arrows/wood_arrow_diagonal_right.png'),
+    down: require('./images/Arrows/wood_arrow.png')
 }
 
 export default TOOLS_IMAGES;
 
 export const ARROWS = {
-    left: require('./images/wood_arrow_diagonal_left.png'),
-    right: require('./images/wood_arrow_diagonal_right.png'),
-    down: require('./images/wood_arrow.png')};
+    left: require('./images/Arrows/wood_arrow_diagonal_left.png'),
+    right: require('./images/Arrows/wood_arrow_diagonal_right.png'),
+    down: require('./images/Arrows/wood_arrow.png')};
