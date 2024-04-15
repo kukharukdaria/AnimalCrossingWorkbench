@@ -6,19 +6,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 
 
 
-export function MainSlingshotCard() {
-    return (
-        <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.slingshot} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Slingshot</p>
-            </div>
-        </div>
-    );
-}
-
+  
 
 
 export const MainAxeCard = () => {
@@ -26,67 +14,61 @@ export const MainAxeCard = () => {
     return (
         <div className="card">
              <div className="image-container">
-                 <img src={TOOLS_IMAGES.flimsyAxe} alt="Axe" /> 
+                 <img src={TOOLS_IMAGES.flimsyAxe} className="cardImage" alt="Axe" /> 
              </div>
              <div className="text-container">
-                 <p>Axe</p>
+                 <p className="toolName">Axe</p>
              </div>
          </div>
     );
 };
-  
+
+const template = (i, n) => {
+    return(
+        <div className="card">
+            <div className="image-container">
+                <img src={i} className="cardImage"/> 
+            </div>
+            <div className="text-container">
+                <p className="toolName">{n}</p>
+            </div>
+        </div>
+    );
+}
+
+
+
+export function MainSlingshotCard() {
+    return (
+        template(TOOLS_IMAGES.slingshot, "Slingshot")
+    );
+}
 
 
 
 export function MainShovelCard() {
     return (
-        <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.flimsyShovel} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Shovel</p>
-            </div>
-        </div>
+        template(TOOLS_IMAGES.flimsyShovel, "Shovel")
     );
 }
 
 
 export function MainWateringCanCard() {
     return (
-        <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.flimsyWateringCan} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Watering Can</p>
-            </div>
-        </div>
+        template(TOOLS_IMAGES.flimsyWateringCan, "Watering Can")
+        
     );
 }
 
 export function MainNetCard() {
     return (
-        <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.flimsyNet} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Shovel</p>
-            </div>
-        </div>
+        template(TOOLS_IMAGES.flimsyNet, "Shovel")
+        
     );
 }
 
 export function MainFishingRodCard() {
     return (
-        <div className="card">
-            <div className="image-container">
-                <img src={TOOLS_IMAGES.flimsyFishingRod} alt="Axe" /> 
-            </div>
-            <div className="text-container">
-                <p>Fishing Rod</p>
-            </div>
-        </div>
+        template(TOOLS_IMAGES.flimsyFishingRod, "Fishing Rod")
     );
 }

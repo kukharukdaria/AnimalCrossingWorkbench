@@ -3,6 +3,10 @@
   background-color: #F8F4C7;
 }
 
+body {
+  background-color: #F8F4C7; /* Adjust as needed */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -126,10 +130,10 @@
 }
 
 /* Image styling */
-img, .table-label-image{
+/* img, .table-label-image{
   max-width: 20%;
   height: 50%;
-}
+} */
 
 .table-label-image{
   width: 10%;

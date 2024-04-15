@@ -14,16 +14,41 @@ function Home() {
       <Header />
 
       <div className="grid-container">
-          <div className="MainAxeCard" onClick={() => {
+          <div className="mainCard" onClick={() => {
             navigate("/AnimalCrossingWorkbench/axe");
           }}>
             <MainAxeCard/>
           </div>
-          <MainShovelCard />
-          <MainFishingRodCard />
-          <MainNetCard />
-          <MainWateringCanCard />
-          <MainSlingshotCard />
+
+          <div className="mainCard" onClick={() => {
+            navigate("/AnimalCrossingWorkbench/axe");
+          }}>
+            <MainShovelCard />
+          </div>
+
+          <div className="mainCard" onClick={() => {
+            navigate("/AnimalCrossingWorkbench/axe");
+          }}>
+            <MainFishingRodCard />
+          </div>
+
+          <div className="mainCard" onClick={() => {
+            navigate("/AnimalCrossingWorkbench/axe");
+          }}>
+            <MainNetCard />
+          </div>
+
+          <div className="mainCard" onClick={() => {
+            navigate("/AnimalCrossingWorkbench/axe");
+          }}>
+            <MainWateringCanCard />
+          </div>
+
+          <div className="mainCard" onClick={() => {
+            navigate("/AnimalCrossingWorkbench/axe");
+          }}>
+            <MainSlingshotCard />
+          </div>
       </div>
       
     </div>

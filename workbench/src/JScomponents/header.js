@@ -11,7 +11,8 @@ function Header() {
         textAlign: "center", // Center-align the content
       }}
     >
-      <h1>Workbench Guide</h1>
+      <h1>Animal crossing tools guide</h1>
+      <h2>What tool do you want to upgrade?</h2>
     </div>
   );
 }

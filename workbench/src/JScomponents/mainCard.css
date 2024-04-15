@@ -1,17 +1,97 @@
-.card {
+/* .card {
     width: 200px;
     border: 1px solid black;
     border-radius: 10px;
     overflow: hidden;
+} */
+
+.card {
+    position: relative;
+    display: block;
+    height: 200px;  
+    border-radius: calc(var(--curve) * 1px);
+    overflow: hidden;
+    text-decoration: none;
+    width: 65%;
+    background-color: rgb(252, 216, 255);
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5);
+  }
+.card:hover {
+    background-color: rgb(250, 229, 252); /* New background color on hover */
+    box-shadow: 3px 3px 10px rgba(231, 182, 246, 0.5);
 }
 
-.image-container {
-    background-color: grey; /* Adjust as needed */
+/* .image-container {
+    background-color: grey;
     height: 100px;
     width: 200px;
+} */
+
+.image-container {      
+    width: 100%;
+    height: 80%;
+    /* height: 80%; */
+  }
+
+.cardImage{
+    height: 100%;
+    width: auto;
 }
 
 .text-container {
-    background-color: lightblue; /* Adjust as needed */
+    /* background-color: lightblue; */
     text-align: center;
+    padding: 0;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(11, 85, 44);
+}
+
+.toolName{
+    padding: 0;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.card__overlay {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 1;      
+border-radius: calc(var(--curve) * 1px);    
+background-color: var(--surface-color);      
+transform: translateY(100%);
+transition: .2s ease-in-out;
+}
+
+.card:hover .card__overlay {
+    transform: translateY(0);
+  }
+
+.card__header {
+position: relative;
+display: flex;
+align-items: center;
+gap: 2em;
+padding: 2em;
+border-radius: calc(var(--curve) * 1px) 0 0 0;    
+background-color: var(--surface-color);
+transform: translateY(-100%);
+transition: .2s ease-in-out;
+}
+
+.mainCard{
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center;
 }
