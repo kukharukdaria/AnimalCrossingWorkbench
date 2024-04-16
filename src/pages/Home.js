@@ -27,31 +27,31 @@ function Home() {
           </div>
 
           <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
+            navigate("/AnimalCrossingWorkbench/shovel");
           }}>
             <MainShovelCard />
           </div>
 
           <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
+            navigate("/AnimalCrossingWorkbench/fishingrod");
           }}>
             <MainFishingRodCard />
           </div>
 
           <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
+            navigate("/AnimalCrossingWorkbench/net");
           }}>
             <MainNetCard />
           </div>
 
           <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
+            navigate("/AnimalCrossingWorkbench/wateringcan");
           }}>
             <MainWateringCanCard />
           </div>
 
           <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
+            navigate("/AnimalCrossingWorkbench/slingshot");
           }}>
             <MainSlingshotCard />
           </div>
