@@ -1,15 +1,15 @@
 import React from 'react';
-import TOOLS_IMAGES from '../images.js';
-import '../pages/Pages.css';
+import TOOLS_IMAGES from '../../images.js';
+import './axeCard.css';
 
 const FlimsyAxeCard = () => {
 
     return (
-        <div className="card">
-             <div className="image-container">
+        <div className="axeCard">
+             <div className="imageAxe-container">
                  <img src={TOOLS_IMAGES.flimsyAxe} alt="FlimsyAxe" /> 
              </div>
-             <div className="text-container">
+             <div className="axeText-container">
                  <p>Flimsy axe</p>
              </div>
          </div>
