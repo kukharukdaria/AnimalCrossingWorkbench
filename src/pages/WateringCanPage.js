@@ -50,31 +50,27 @@ function WateringCanPage() {
     <div style={{
       align: 'center'
     }}>
-      <div style={{ display: 'inline-flex', textAlign: 'center' }}>
-        <FlimsyWateringCanCard />
-      </div>
-      <div>
-      <img src={ARROWS.down} style={{ width: '200px', height: '200px', marginLeft: '750px' }} />
-      </div>
-      <div style={{ display: 'inline-flex', justifyContent: 'center' }}>
-        <WateringCanCard />
-      </div>
-      <div>
-      <img src={ARROWS.down} style={{ width: '200px', height: '200px', marginLeft: '750px' }} />
-      </div>
-      <div style={{ display: 'inline-flex', justifyContent: 'center' }}>
-        <GoldenWateringCanCard />
-      </div>
-
-      <div style={{ width: '100px', alignContent: 'center' }} /> {/* Empty div for spacing */}
-
-      <button onClick={() => {
-        navigate("/AnimalCrossingWorkbench/");
-      }}>back</button>
-
       <button style={buttonStyle} onClick={() => {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
+      <div style={{ display: 'inline-flex', textAlign: 'center', marginLeft: '100px'  }}>
+        <FlimsyWateringCanCard />
+      </div>
+      <div>
+      <img src={ARROWS.down} style={{ width: '100px', height: '200px', marginLeft: '0px', marginTop: '20px', marginBottom: '20px' }} />
+      </div>
+      <div style={{ display: 'inline-flex', justifyContent: 'center', marginLeft: '100px'  }}>
+        <WateringCanCard />
+      </div>
+      <div>
+      <img src={ARROWS.down} style={{ width: '100px', height: '200px', marginLeft: '0px', marginTop: '20px', marginBottom: '20px' }} />
+      </div>
+      <div style={{ display: 'inline-flex', justifyContent: 'center', marginLeft: '100px'  }}>
+        <GoldenWateringCanCard />
+      </div>
+
+      <div style={{ width: '100px', alignContent: 'center', marginLeft: '100px', marginBottom: '100px'  }} /> {/* Empty div for spacing */}
+
 
     </div>
   );

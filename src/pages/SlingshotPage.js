@@ -49,24 +49,24 @@ function SlingshotPage() {
     <div style={{
       align: 'center'
     }}>
-      <div style={{ display: 'inline-flex', justifyContent: 'center' }}>
+      <button style={buttonStyle} onClick={() => {
+        navigate("/AnimalCrossingWorkbench/");
+      }}>back</button>
+      <div style={{ display: 'inline-flex', justifyContent: 'center', marginLeft: '100px'  }}>
         <SlingshotCard />
       </div>
 
       <div>
-      <img src={ARROWS.down} style={{ width: '200px', height: '200px', marginLeft: '750px' }} />
+      <img src={ARROWS.down} style={{ width: '100px', height: '200px', marginLeft: '0px', marginTop: '20px', marginBottom: '20px' }} />
       </div>
       
-      <div style={{ display: 'inline-flex', justifyContent: 'center' }}>
+      <div style={{ display: 'inline-flex', justifyContent: 'center', marginLeft: '100px', marginBottom: '100px' }}>
         <GoldenSlingshotCard />
       </div>
 
       <div style={{ width: '100px', alignContent: 'center' }} /> {/* Empty div for spacing */}
 
 
-      <button style={buttonStyle} onClick={() => {
-        navigate("/AnimalCrossingWorkbench/");
-      }}>back</button>
     </div>
     
   );
