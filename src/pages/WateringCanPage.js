@@ -11,6 +11,23 @@ import {
   Switch,
 } from "react-router-dom";
 
+const buttonStyle = {
+  padding: '15px 32px',
+  textAlign: 'center',
+  border: 'none', /* Border color */
+  backgroundColor: '#04AA6D', /* Background color */
+  fontSize: '16px', /* Size of the arrow */
+  color: 'white', /* Arrow color */
+  cursor: 'pointer',
+  outline: 'none', /* Remove default button outline */
+  display: 'inline-block',
+  justifyContent: 'center',
+  alignItems: 'center',
+  display: 'block',
+  marginLeft: '15px',
+  marginTop: '15px'
+}
+
 function WateringCanPage() {
   const navigate = useNavigate();
 
@@ -19,7 +36,7 @@ function WateringCanPage() {
     <div style={{
       align: 'center'
     }}>
-      <button style={{ display: 'block', marginLeft: '0', marginLeft: '15px', marginTop: '15px'}} onClick={() => {
+      <button style={buttonStyle} onClick={() => {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
 
