@@ -18,7 +18,6 @@ import {
   Navigate,
   Switch,
 } from "react-router-dom";
-import FishingRodPage from './pages/FishingRodPage.js';
 
 
 
@@ -31,9 +30,9 @@ function App() {
           <Route path="/AnimalCrossingWorkbench/" element={<Home />} />
 
           <Route path="/AnimalCrossingWorkbench/axe" element={<AxePage />} />
-          <Route path="/AnimalCrossingWorkbench/net" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/net" element={<NetPage />} />
           <Route path="/AnimalCrossingWorkbench/fishingRod" element={<FishingRodPage />} />
-          <Route path="/AnimalCrossingWorkbench/wateringCan" element={<AxePage />} />
+          <Route path="/AnimalCrossingWorkbench/wateringCan" element={<WateringCanPage />} />
           <Route path="/AnimalCrossingWorkbench/shovel" element={<ShovelPage />} />
           <Route path="/AnimalCrossingWorkbench/slingshot" element={<SlingshotPage />} />
         </Routes>

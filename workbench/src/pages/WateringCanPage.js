@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
-<<<<<<< HEAD
 import FlimsyAxeCard from '../JScomponents/Axes/FlimsyAxeCard.js';
 import ARROWS from '../images.js';
 import TOOLS_IMAGES from '../images.js';
@@ -18,19 +17,6 @@ import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWateringCa
 //flimsy
 //regular
 //golden
-=======
-import ARROWS from '../images.js';
-import TOOLS_IMAGES from '../images.js';
-
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Navigate,
-  Switch,
-} from "react-router-dom";
->>>>>>> 64f7ea0772a5860da84604129bbb691e780f2a23
-
 function WateringCanPage() {
   const navigate = useNavigate();
 
@@ -39,7 +25,6 @@ function WateringCanPage() {
     <div style={{
       align: 'center'
     }}>
-<<<<<<< HEAD
       <div style={{ display: 'inline-flex', textAlign: 'center' }}>
         <FlimsyWateringCanCard />
       </div>
@@ -62,13 +47,11 @@ function WateringCanPage() {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
 
-=======
       <button style={{ display: 'block', marginLeft: '0', marginLeft: '15px', marginTop: '15px'}} onClick={() => {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
 
 
->>>>>>> 64f7ea0772a5860da84604129bbb691e780f2a23
     </div>
   );
 }
