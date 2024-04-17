@@ -100,6 +100,7 @@ export function MainWateringCanCard() {
 
 export function MainNetCard() {
     return (
+<<<<<<< Updated upstream
         <div className="card">
             <div className="imageContainer">
                 <image src={TOOLS_IMAGES.flimsyNet} className="cardImage" alt="Net" />
@@ -109,6 +110,10 @@ export function MainNetCard() {
             </div>
         </div>
         //template(TOOLS_IMAGES.flimsyShovel, "Shovel")
+=======
+        template(TOOLS_IMAGES.flimsyNet, "Net")
+        
+>>>>>>> Stashed changes
     );
 }
 
