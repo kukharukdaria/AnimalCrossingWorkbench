@@ -60,7 +60,7 @@ export function MainWateringCanCard() {
 
 export function MainNetCard() {
     return (
-        template(TOOLS_IMAGES.flimsyNet, "Shovel")
+        template(TOOLS_IMAGES.flimsyNet, "Net")
         
     );
 }
