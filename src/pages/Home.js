@@ -33,11 +33,7 @@ function Home() {
           </div>
 
           <div className="mainCard" onClick={() => {
-<<<<<<< Updated upstream
             navigate("/AnimalCrossingWorkbench/fishingRod");
-=======
-            navigate("/AnimalCrossingWorkbench/fishingrod");
->>>>>>> Stashed changes
           }}>
             <MainFishingRodCard />
           </div>
@@ -49,11 +45,7 @@ function Home() {
           </div>
 
           <div className="mainCard" onClick={() => {
-<<<<<<< Updated upstream
             navigate("/AnimalCrossingWorkbench/wateringCan");
-=======
-            navigate("/AnimalCrossingWorkbench/wateringcan");
->>>>>>> Stashed changes
           }}>
             <MainWateringCanCard />
           </div>
