@@ -5,8 +5,8 @@ function Header() {
   return (
     <div
       style={{
-        backgroundColor: "#F3A556", // Set your desired background color
-        color: "#3B7DE5", // Set text color
+        backgroundColor: "#F9D7AE", // Set your desired background color
+        color: "#306F2E", // Set text color
         padding: "16px", // Add some padding
         textAlign: "center", // Center-align the content
       }}

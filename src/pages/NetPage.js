@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import ARROWS from '../images.js';
 import TOOLS_IMAGES from '../images.js';
 
+import FlimsyNetCard from '../JScomponents/Nets/FlimsyNet.js';
+import NetCard from '../JScomponents/Nets/Net.js';
+import GoldenNetCard from '../JScomponents/Nets/GoldenNet.js';
 import {
   BrowserRouter as Router,
   Routes,
@@ -39,7 +42,6 @@ function NetPage() {
       <button style={buttonStyle} onClick={() => {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
-
 
     </div>
   );

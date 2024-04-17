@@ -3,6 +3,9 @@ import { useNavigate } from "react-router-dom";
 import ARROWS from '../images.js';
 import TOOLS_IMAGES from '../images.js';
 
+import FlimsyWateringCanCard from '../JScomponents/WateringCans/FlimsyWateringCan.js'
+import WateringCanCard from '../JScomponents/WateringCans/WateringCan.js'
+import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWatringCan.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -39,7 +42,6 @@ function WateringCanPage() {
       <button style={buttonStyle} onClick={() => {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
-
 
     </div>
   );
