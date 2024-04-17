@@ -21,6 +21,7 @@ export const MainAxeCard = () => {
     );
 };
 
+
 const template = (i, n) => {
     return(
         <div className="card">
@@ -35,38 +36,111 @@ const template = (i, n) => {
 }
 
 
-
 export function MainSlingshotCard() {
     return (
-        template(TOOLS_IMAGES.slingshot, "Slingshot")
+        <div className="card">
+            <div className="imageContainer">
+                <image src={TOOLS_IMAGES.slingshot} className="cardImage" alt="Slingshot" />
+            </div>
+            <div className="text-container">
+                <p className="toolName">Slingshot</p>
+            </div>
+        </div>
+        //template(TOOLS_IMAGES.flimsyShovel, "Shovel")
     );
 }
 
+// export function MainSlingshotCard() {
+//     return (
+//         template(TOOLS_IMAGES.slingshot, "Slingshot")
+//     );
+// }
 
 
 export function MainShovelCard() {
     return (
-        template(TOOLS_IMAGES.flimsyShovel, "Shovel")
+        <div className="card">
+            <div className="imageContainer">
+                <image src={TOOLS_IMAGES.flimsyShovel} className="cardImage" alt="Shovel" />
+            </div>
+            <div className="text-container">
+                <p className="toolName">Shovel</p>
+            </div>
+        </div>
     );
 }
+
+// export function MainShovelCard() {
+//     return (
+//         template(TOOLS_IMAGES.flimsyShovel, "Shovel")
+//     );
+// }
 
 
 export function MainWateringCanCard() {
     return (
-        template(TOOLS_IMAGES.flimsyWateringCan, "Watering Can")
-        
+        <div className="card">
+            <div className="imageContainer">
+                <image src={TOOLS_IMAGES.flimsyWateringCan} className="cardImage" alt="Watering Can" />
+            </div>
+            <div className="text-container">
+                <p className="toolName">Watering Can</p>
+            </div>
+        </div>
     );
 }
+
+// export function MainWateringCanCard() {
+//     return (
+//         template(TOOLS_IMAGES.flimsyWateringCan, "Watering Can")
+        
+//     );
+// }
+
 
 export function MainNetCard() {
     return (
+<<<<<<< Updated upstream
+        <div className="card">
+            <div className="imageContainer">
+                <image src={TOOLS_IMAGES.flimsyNet} className="cardImage" alt="Net" />
+            </div>
+            <div className="text-container">
+                <p className="toolName">Net</p>
+            </div>
+        </div>
+        //template(TOOLS_IMAGES.flimsyShovel, "Shovel")
+=======
         template(TOOLS_IMAGES.flimsyNet, "Net")
         
+>>>>>>> Stashed changes
     );
 }
 
+// export function MainNetCard() {
+//     return (
+//         template(TOOLS_IMAGES.flimsyNet, "Shovel")
+        
+//     );
+// }
+
+
 export function MainFishingRodCard() {
     return (
-        template(TOOLS_IMAGES.flimsyFishingRod, "Fishing Rod")
+        <div className="card">
+            <div className="imageContainer">
+                <image src={TOOLS_IMAGES.flimsyFishingRod} className="cardImage" alt="Fishing Rod" />
+            </div>
+            <div className="text-container">
+                <p className="toolName">Fishing Rod</p>
+            </div>
+        </div>
+        //template(TOOLS_IMAGES.flimsyShovel, "Shovel")
     );
 }
+
+// export function MainFishingRodCard() {
+//     return (
+//         template(TOOLS_IMAGES.flimsyFishingRod, "Fishing Rod")
+//     );
+// }
