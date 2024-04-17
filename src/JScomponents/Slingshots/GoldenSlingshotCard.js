@@ -2,18 +2,18 @@ import React from 'react';
 import TOOLS_IMAGES from '../../images.js';
 import './slingshotCard.css';
 
-const SlingshotCard = () => {
+const GoldenSlingshotCard = () => {
 
     return (
         <div className="slingshotCard">
              <div className="imageSlingshot-container">
-                 <img src={TOOLS_IMAGES.slingshot} alt="Slingshot" /> 
+                 <img src={TOOLS_IMAGES.goldenSlingshot} alt="goldenSlingshot" /> 
              </div>
              <div className="slingshotText-container">
-                 <p>Slingshot</p>
+                 <p>Golden slingshot</p>
              </div>
          </div>
     );
 };
 
-export default SlingshotCard;
+export default GoldenSlingshotCard;

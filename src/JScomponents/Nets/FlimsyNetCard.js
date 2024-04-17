@@ -1,16 +1,16 @@
 import React from 'react';
 import TOOLS_IMAGES from '../../images.js';
-import '../Axes/axeCard.css';
+import './netCard.css';
 
 const FlimsyNetCard = () => {
 
     return (
-        <div className="flimsyNetCard">
-             <div className="imageFlimsyNet-container">
+        <div className="netCard">
+             <div className="imageNet-container">
                  <img src={TOOLS_IMAGES.flimsyNet} alt="FlimsyNet" /> 
              </div>
-             <div className="flimsyNetText-container">
-                 <p>FlimsyNet</p>
+             <div className="netText-container">
+                 <p>Flimsy net</p>
              </div>
          </div>
     );

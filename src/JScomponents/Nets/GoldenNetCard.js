@@ -1,16 +1,16 @@
 import React from 'react';
 import TOOLS_IMAGES from '../../images.js';
-import '../Axes/axeCard.css';
+import './netCard.css';
 
 const GoldenNetCard = () => {
 
     return (
-        <div className="GoldenNetCard">
-             <div className="imageGoldenNet-container">
+        <div className="netCard">
+             <div className="imageNet-container">
                  <img src={TOOLS_IMAGES.goldenNet} alt="GoldenNet" /> 
              </div>
-             <div className="GoldenNetText-container">
-                 <p>GoldenNet</p>
+             <div className="netText-container">
+                 <p>Golden net</p>
              </div>
          </div>
     );
