@@ -17,9 +17,6 @@ import GoldenNetCard from '../JScomponents/Nets/GoldenNetCard.js'
 //flimsy
 //regular
 //golden
-import FlimsyNetCard from '../JScomponents/Nets/FlimsyNet.js';
-import NetCard from '../JScomponents/Nets/Net.js';
-import GoldenNetCard from '../JScomponents/Nets/GoldenNet.js';
 import {
   BrowserRouter as Router,
   Routes,

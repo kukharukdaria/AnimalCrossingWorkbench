@@ -14,14 +14,9 @@ import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWateringCa
 //   Switch,
 // } from "react-router-dom";
 
-<<<<<<< Updated upstream
 //flimsy
 //regular
 //golden
-=======
-import FlimsyWateringCanCard from '../JScomponents/WateringCans/FlimsyWateringCan.js'
-import WateringCanCard from '../JScomponents/WateringCans/WateringCan.js'
-import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWatringCan.js'
 import {
   BrowserRouter as Router,
   Routes,
@@ -47,7 +42,6 @@ const buttonStyle = {
   marginTop: '15px'
 }
 
->>>>>>> Stashed changes
 function WateringCanPage() {
   const navigate = useNavigate();
 
@@ -56,7 +50,6 @@ function WateringCanPage() {
     <div style={{
       align: 'center'
     }}>
-<<<<<<< Updated upstream
       <div style={{ display: 'inline-flex', textAlign: 'center' }}>
         <FlimsyWateringCanCard />
       </div>
@@ -79,10 +72,7 @@ function WateringCanPage() {
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
 
-      <button style={{ display: 'block', marginLeft: '0', marginLeft: '15px', marginTop: '15px'}} onClick={() => {
-=======
       <button style={buttonStyle} onClick={() => {
->>>>>>> Stashed changes
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
 
