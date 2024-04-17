@@ -31,8 +31,8 @@ function App() {
 
           <Route path="/AnimalCrossingWorkbench/axe" element={<AxePage />} />
           <Route path="/AnimalCrossingWorkbench/net" element={<NetPage />} />
-          <Route path="/AnimalCrossingWorkbench/fishingRod" element={<FishingRodPage />} />
-          <Route path="/AnimalCrossingWorkbench/wateringCan" element={<WateringCanPage />} />
+          <Route path="/AnimalCrossingWorkbench/fishingrod" element={<FishingRodPage />} />
+          <Route path="/AnimalCrossingWorkbench/wateringcan" element={<WateringCanPage />} />
           <Route path="/AnimalCrossingWorkbench/shovel" element={<ShovelPage />} />
           <Route path="/AnimalCrossingWorkbench/slingshot" element={<SlingshotPage />} />
         </Routes>
