@@ -13,12 +13,13 @@
     overflow: hidden;
     text-decoration: none;
     width: 250px;
-    background-color: rgb(252, 216, 255);
+    background-color: #F9D7AE;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5);
+    border: 2px solid #3B7DE5;
+    /* box-shadow: 3px 3px 10px #767676; */
   }
 .card:hover {
-    background-color: rgb(250, 229, 252); /* New background color on hover */
+    background-color: #e4b5ce; /* New background color on hover */
     box-shadow: 3px 3px 10px rgba(231, 182, 246, 0.5);
 }
 
@@ -42,7 +43,7 @@
     padding: 0;
     font-size: 30px;
     font-weight: bold;
-    color: rgb(11, 85, 44);
+    color: #2F8167;
 }
 
 .toolName{

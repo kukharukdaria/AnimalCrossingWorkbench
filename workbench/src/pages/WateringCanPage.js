@@ -14,9 +14,40 @@ import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWateringCa
 //   Switch,
 // } from "react-router-dom";
 
+<<<<<<< Updated upstream
 //flimsy
 //regular
 //golden
+=======
+import FlimsyWateringCanCard from '../JScomponents/WateringCans/FlimsyWateringCan.js'
+import WateringCanCard from '../JScomponents/WateringCans/WateringCan.js'
+import GoldenWateringCanCard from '../JScomponents/WateringCans/GoldenWatringCan.js'
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+  Switch,
+} from "react-router-dom";
+
+const buttonStyle = {
+  padding: '15px 32px',
+  textAlign: 'center',
+  border: 'none', /* Border color */
+  backgroundColor: '#04AA6D', /* Background color */
+  fontSize: '16px', /* Size of the arrow */
+  color: 'white', /* Arrow color */
+  cursor: 'pointer',
+  outline: 'none', /* Remove default button outline */
+  display: 'inline-block',
+  justifyContent: 'center',
+  alignItems: 'center',
+  display: 'block',
+  marginLeft: '15px',
+  marginTop: '15px'
+}
+
+>>>>>>> Stashed changes
 function WateringCanPage() {
   const navigate = useNavigate();
 
@@ -25,6 +56,7 @@ function WateringCanPage() {
     <div style={{
       align: 'center'
     }}>
+<<<<<<< Updated upstream
       <div style={{ display: 'inline-flex', textAlign: 'center' }}>
         <FlimsyWateringCanCard />
       </div>
@@ -48,9 +80,11 @@ function WateringCanPage() {
       }}>back</button>
 
       <button style={{ display: 'block', marginLeft: '0', marginLeft: '15px', marginTop: '15px'}} onClick={() => {
+=======
+      <button style={buttonStyle} onClick={() => {
+>>>>>>> Stashed changes
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
-
 
     </div>
   );

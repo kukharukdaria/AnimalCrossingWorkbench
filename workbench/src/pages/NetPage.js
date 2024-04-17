@@ -14,9 +14,39 @@ import GoldenNetCard from '../JScomponents/Nets/GoldenNetCard.js'
 //   Switch,
 // } from "react-router-dom";
 
+<<<<<<< Updated upstream
 //flimsy
 //regular
 //golden
+=======
+import FlimsyNetCard from '../JScomponents/Nets/FlimsyNet.js';
+import NetCard from '../JScomponents/Nets/Net.js';
+import GoldenNetCard from '../JScomponents/Nets/GoldenNet.js';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Navigate,
+  Switch,
+} from "react-router-dom";
+>>>>>>> Stashed changes
+
+const buttonStyle = {
+  padding: '15px 32px',
+  textAlign: 'center',
+  border: 'none', /* Border color */
+  backgroundColor: '#04AA6D', /* Background color */
+  fontSize: '16px', /* Size of the arrow */
+  color: 'white', /* Arrow color */
+  cursor: 'pointer',
+  outline: 'none', /* Remove default button outline */
+  display: 'inline-block',
+  justifyContent: 'center',
+  alignItems: 'center',
+  display: 'block',
+  marginLeft: '15px',
+  marginTop: '15px'
+}
 
 function NetPage() {
   const navigate = useNavigate();
@@ -26,6 +56,7 @@ function NetPage() {
     <div style={{
       align: 'center'
     }}>
+<<<<<<< Updated upstream
       <div style={{ display: 'inline-flex', textAlign: 'center' }}>
         <FlimsyNetCard />
       </div>
@@ -49,9 +80,11 @@ function NetPage() {
       }}>back</button>
 
       <button style={{ display: 'block', marginLeft: '0', marginLeft: '15px', marginTop: '15px'}} onClick={() => {
+=======
+      <button style={buttonStyle} onClick={() => {
+>>>>>>> Stashed changes
         navigate("/AnimalCrossingWorkbench/");
       }}>back</button>
-
 
     </div>
   );
