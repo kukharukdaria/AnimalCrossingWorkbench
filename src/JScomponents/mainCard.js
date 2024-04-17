@@ -15,7 +15,7 @@ export const MainAxeCard = () => {
                  <img src={TOOLS_IMAGES.flimsyAxe} className="cardImage" alt="Axe" /> 
              </div>
              <div className="text-container">
-                 <p className="toolName">Axe</p>
+                 <p className="toolName">Axes</p>
              </div>
          </div>
     );
@@ -38,7 +38,7 @@ const template = (i, n) => {
 
 export function MainSlingshotCard() {
     return (
-        template(TOOLS_IMAGES.slingshot, "Slingshot")
+        template(TOOLS_IMAGES.slingshot, "Slingshots")
     );
 }
 
@@ -51,7 +51,7 @@ export function MainSlingshotCard() {
 
 export function MainShovelCard() {
     return (
-        template(TOOLS_IMAGES.flimsyShovel, "Shovel")
+        template(TOOLS_IMAGES.flimsyShovel, "Shovels")
     );
 }
 
@@ -64,7 +64,7 @@ export function MainShovelCard() {
 
 export function MainWateringCanCard() {
     return (
-        template(TOOLS_IMAGES.flimsyWateringCan, "Watering Can")
+        template(TOOLS_IMAGES.flimsyWateringCan, "Watering Cans")
     );
 }
 
@@ -78,7 +78,7 @@ export function MainWateringCanCard() {
 
 export function MainNetCard() {
     return (
-        template(TOOLS_IMAGES.flimsyNet, "Net")
+        template(TOOLS_IMAGES.flimsyNet, "Nets")
         
     );
 }
@@ -93,7 +93,7 @@ export function MainNetCard() {
 
 export function MainFishingRodCard() {
     return (
-        template(TOOLS_IMAGES.flimsyFishingRod, "Fishing Rod")
+        template(TOOLS_IMAGES.flimsyFishingRod, "Fishing Rods")
     );
 }
 

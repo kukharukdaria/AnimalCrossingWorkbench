@@ -5,14 +5,15 @@ function Header() {
   return (
     <div
       style={{
-        backgroundColor: "#F9D7AE", // Set your desired background color
-        color: "#306F2E", // Set text color
+        backgroundColor: "#F3A556", // Set your desired background color
+        color: "#246651", // Set text color
         padding: "16px", // Add some padding
         textAlign: "center", // Center-align the content
+        
       }}
     >
-      <h1>Animal crossing tools guide</h1>
-      <h2>What tool do you want to upgrade?</h2>
+      <h1 style={{fontSize: '36px'}}>Animal Crossing Tools Guide</h1>
+      <h2>Check hierarchy of tools</h2>
     </div>
   );
 }

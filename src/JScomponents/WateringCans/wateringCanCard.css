@@ -20,21 +20,17 @@
     border-radius: calc(var(--curve) * 1px);
     overflow: hidden;
     text-decoration: none;
-    width: 200px;
-    background-color: rgb(252, 216, 255);
+    width: 240px;
+    background-color: #F9D7AE;
+    border: 2px solid #3B7DE5;
     border-radius: 10px;
-    box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5);
+    /* box-shadow: 3px 3px 10px rgba(94, 9, 119, 0.5); */
     box-decoration-break: slice;
     margin-right: 400px;
     margin-left: 300px;
     /*align-items: center;*/
 }
 
-.wateringCanCard:hover {
-    background-color: rgb(250, 229, 252);
-    /* New background color on hover */
-    box-shadow: 3px 3px 10px rgba(231, 182, 246, 0.5);
-}
 
 .imageWateringCan-container {
     width: 100%;

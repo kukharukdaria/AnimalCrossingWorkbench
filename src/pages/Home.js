@@ -19,44 +19,47 @@ function Home() {
     <div className="App-Home">
       <Header />
 
-      <div className="grid-container">
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/axe");
-          }}>
-            <MainAxeCard/>
-          </div>
+      <div style={{ display: 'flex',  justifyContent: 'center'}}>
+        
+        <div className="grid-container" style={{width:'1300px'}}>
+            <div className="mainCard" onClick={() => {
+              navigate("/AnimalCrossingWorkbench/axe");
+            }}>
+              <MainAxeCard/>
+            </div>
 
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/shovel");
-          }}>
-            <MainShovelCard />
-          </div>
+            <div className="mainCard" onClick={() => {
+              navigate("/AnimalCrossingWorkbench/shovel");
+            }}>
+              <MainShovelCard />
+            </div>
 
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/fishingRod");
-          }}>
-            <MainFishingRodCard />
-          </div>
+            <div className="mainCard" onClick={() => {
+              navigate("/AnimalCrossingWorkbench/fishingRod");
+            }}>
+              <MainFishingRodCard />
+            </div>
 
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/net");
-          }}>
-            <MainNetCard />
-          </div>
+            <div className="mainCard" style={{marginTop: '70px'}} onClick={() => {
+              navigate("/AnimalCrossingWorkbench/net");
+            }}>
+              <MainNetCard />
+            </div>
 
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/wateringCan");
-          }}>
-            <MainWateringCanCard />
-          </div>
+            <div className="mainCard" style={{marginTop: '70px'}} onClick={() => {
+              navigate("/AnimalCrossingWorkbench/wateringCan");
+            }}>
+              <MainWateringCanCard />
+            </div>
 
-          <div className="mainCard" onClick={() => {
-            navigate("/AnimalCrossingWorkbench/slingshot");
-          }}>
-            <MainSlingshotCard />
-          </div>
-      </div>
+            <div className="mainCard" style={{marginTop: '70px'}} onClick={() => {
+              navigate("/AnimalCrossingWorkbench/slingshot");
+            }}>
+              <MainSlingshotCard />
+            </div>
+        </div>
       
+      </div>
     </div>
   );
 }
